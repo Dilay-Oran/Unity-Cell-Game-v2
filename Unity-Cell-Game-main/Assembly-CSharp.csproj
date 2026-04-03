@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\DragScript.cs" />
     <Compile Include="Assets\Scripts\DropScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
