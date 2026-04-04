@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -25,6 +25,13 @@ public class GameManager : MonoBehaviour
     [Header("Cytoplasm Notebook Section")]
     public TMP_Dropdown cytoFirstDropdown;
     public TMP_Dropdown cytoSecondDropdown;
+    public TMP_Dropdown cytoThirdDropdown;
+    public TMP_Dropdown cytoFourthDropdown;
+    public TMP_Dropdown cytoFifthDropdown;
+    public TMP_Dropdown cytoSixthDropdown;
+    public TMP_Dropdown cytoSeventhDropdown;
+
+
 
     [Header("Cell Membrane Notebook Section")]
     public TMP_Dropdown membraneFirstDropdown;
@@ -89,7 +96,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("L�tfen isim giriniz.");
+            Debug.Log("Lütfen isim giriniz.");
         }
     }
 
@@ -127,8 +134,7 @@ public class GameManager : MonoBehaviour
             truePopUp.SetActive(false);
             NeoNefesNotebookNextButton.interactable = false;
         }
-
-
+       
         // ------------- CELL MEMBRANE-----------------
 
         int v1 = membraneFirstDropdown.value;
@@ -162,11 +168,6 @@ public class GameManager : MonoBehaviour
             membranetruePopUp.SetActive(false);
             membranefalsePopUp.SetActive(true);
             cell_membrane_next_button_3.interactable = false;
-        }
-
-
-
-
-
+        }  
     }
 }

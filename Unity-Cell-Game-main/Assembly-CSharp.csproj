@@ -62,8 +62,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\AnalyzerDrop.cs" />
     <Compile Include="Assets\Scripts\DragScript.cs" />
     <Compile Include="Assets\Scripts\DropScript.cs" />
+    <Compile Include="Assets\Scripts\GameManager1.cs" />
+    <Compile Include="Assets\Scripts\AnalyzerDrag.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
   </ItemGroup>
