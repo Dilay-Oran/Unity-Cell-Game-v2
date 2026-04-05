@@ -8,6 +8,8 @@ public class GameManager1 : MonoBehaviour
     [Header("Drag and Drop Buttons and Draggables")]
     public Button draggingNextButton;
     public Button mitochondriaNextButton;
+    public Button ribosomeNextButton;
+
     public List<DragScript> Draggables;
 
     [Header("Cytoplasm Notebook Section")]
@@ -21,12 +23,21 @@ public class GameManager1 : MonoBehaviour
     [Header("Mitochondria Notebook Section")]
     public TMP_Dropdown mitochondriaDropdown;
 
+    [Header("Ribosome Notebook Section")]
+    public TMP_Dropdown ribosomeDropdown;
+    public TMP_Dropdown ribosomeDropdown1;
+
+
+
+
 
     [Header("Popups")]
     public GameObject truePopUp;  
     public GameObject falsePopUp; 
     public GameObject mitochondriaTruePopUp;
     public GameObject mitochondriaFalsePopUp;
+    public GameObject ribosomeTruePopUp;
+    public GameObject ribosomeFalsePopUp;
 
     void Start()
     {
@@ -59,6 +70,7 @@ public class GameManager1 : MonoBehaviour
     }
     public void SaveButtonOnclicked()
     {
+        // ----------------Cytoplasm 2--------------------
 
         int a3 = cytoThirdDropdown.value;
         int a4 = cytoFourthDropdown.value;
@@ -120,10 +132,46 @@ public class GameManager1 : MonoBehaviour
         }
         else
         {
-            // wrong answer
+            
             mitochondriaFalsePopUp.SetActive(true);
             mitochondriaTruePopUp.SetActive(false);
             mitochondriaNextButton.interactable = false;
+        }
+
+        // --------Ribosome--------------
+
+        if (ribosomeDropdown.value == 1 && ribosomeDropdown1.value== 2 )
+        {
+
+            ribosomeDropdown.interactable = false;
+            ribosomeDropdown1.interactable = false;
+
+            ribosomeTruePopUp.SetActive(true);
+            ribosomeNextButton.interactable = true;
+            ribosomeFalsePopUp.SetActive(false);
+
+
+            if (mitochondriaDropdown != null)
+            {
+                ribosomeDropdown.value = 1;
+                ribosomeDropdown1.value = 2;
+
+                ribosomeDropdown.RefreshShownValue();
+                ribosomeDropdown1.RefreshShownValue();
+
+
+                ribosomeDropdown.interactable = false;
+                ribosomeDropdown1 .interactable = false;
+
+            }
+
+        }
+        else
+        {
+            
+            ribosomeFalsePopUp.SetActive(true);
+            ribosomeTruePopUp.SetActive(false);
+            ribosomeNextButton.interactable = false;
         }
     } 
 }

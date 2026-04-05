@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: c73b58ec09ede8743b92822cc836f428
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5961355027642552026
+    second: ribosome_explosion_0
+  - first:
+      213: 6171871173907961258
+    second: ribosome_explosion_1
+  - first:
+      213: 5817129238167975242
+    second: ribosome_explosion_2
+  - first:
+      213: 5600536766750952873
+    second: ribosome_explosion_3
+  - first:
+      213: 1774619411383005197
+    second: ribosome_explosion_4
+  - first:
+      213: -3343612566617055582
+    second: ribosome_explosion_5
+  - first:
+      213: -6894047019655065371
+    second: ribosome_explosion_6
+  - first:
+      213: 1589811526491493680
+    second: ribosome_explosion_7
+  - first:
+      213: -3822232030153946581
+    second: ribosome_explosion_8
+  - first:
+      213: 9093036145757143719
+    second: ribosome_explosion_9
+  - first:
+      213: -7733624797145797194
+    second: ribosome_explosion_10
+  - first:
+      213: -4684075789952822750
+    second: ribosome_explosion_11
+  - first:
+      213: -2693676938151521714
+    second: ribosome_explosion_12
+  - first:
+      213: -3085334127941048641
+    second: ribosome_explosion_13
+  - first:
+      213: 7651131244250623901
+    second: ribosome_explosion_14
+  - first:
+      213: 8425894746766182264
+    second: ribosome_explosion_15
+  - first:
+      213: -8512449463785781031
+    second: ribosome_explosion_16
+  - first:
+      213: -5777521533173100822
+    second: ribosome_explosion_17
+  - first:
+      213: 1200038913666811948
+    second: ribosome_explosion_18
+  - first:
+      213: 3814195365317164688
+    second: ribosome_explosion_19
+  - first:
+      213: -1017910766497658000
+    second: ribosome_explosion_20
+  - first:
+      213: -224384385352047845
+    second: ribosome_explosion_21
+  - first:
+      213: -6631392752880104611
+    second: ribosome_explosion_22
+  - first:
+      213: -7713135733403158089
+    second: ribosome_explosion_23
+  - first:
+      213: -1131484791376163758
+    second: ribosome_explosion_24
+  - first:
+      213: 6231785071168530181
+    second: ribosome_explosion_25
+  - first:
+      213: -7120430496835766280
+    second: ribosome_explosion_26
+  - first:
+      213: -3786740758421561058
+    second: ribosome_explosion_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ribosome_explosion_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 178
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621706ddf23054da0800000000000000
+      internalID: -5961355027642552026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 88967647f1c674e449c6478a5e2ba77d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ribosome_explosion_0: -5961355027642552026
+      ribosome_explosion_1: 6171871173907961258
+      ribosome_explosion_10: -7733624797145797194
+      ribosome_explosion_11: -4684075789952822750
+      ribosome_explosion_12: -2693676938151521714
+      ribosome_explosion_13: -3085334127941048641
+      ribosome_explosion_14: 7651131244250623901
+      ribosome_explosion_15: 8425894746766182264
+      ribosome_explosion_16: -8512449463785781031
+      ribosome_explosion_17: -5777521533173100822
+      ribosome_explosion_18: 1200038913666811948
+      ribosome_explosion_19: 3814195365317164688
+      ribosome_explosion_2: 5817129238167975242
+      ribosome_explosion_20: -1017910766497658000
+      ribosome_explosion_21: -224384385352047845
+      ribosome_explosion_22: -6631392752880104611
+      ribosome_explosion_23: -7713135733403158089
+      ribosome_explosion_24: -1131484791376163758
+      ribosome_explosion_25: 6231785071168530181
+      ribosome_explosion_26: -7120430496835766280
+      ribosome_explosion_27: -3786740758421561058
+      ribosome_explosion_3: 5600536766750952873
+      ribosome_explosion_4: 1774619411383005197
+      ribosome_explosion_5: -3343612566617055582
+      ribosome_explosion_6: -6894047019655065371
+      ribosome_explosion_7: 1589811526491493680
+      ribosome_explosion_8: -3822232030153946581
+      ribosome_explosion_9: 9093036145757143719
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
