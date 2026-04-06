@@ -12,6 +12,9 @@ public class GameManager1 : MonoBehaviour
     public Button magnifierRibosomeNextButton;
     public Button vacouleNextButton;
     public Button vacouleNoteBookNextButton;
+    public Button rfaNextButton;
+    public Button rfa1NextButton;
+    public Button rfa2NextButton;
 
     [Header("Drag and Drop Draggables")]
     public DragScript magnifierDraggable;
@@ -68,6 +71,12 @@ public class GameManager1 : MonoBehaviour
         CheckAllMatched();
         CheckMagnifierMatched();
         CheckVacouleMatched();
+    }
+
+    public void RfaEnableButton(Button targetButton)
+    {
+        if (targetButton != null) { targetButton.interactable = true; }
+
     }
 
     void CheckAllMatched()
