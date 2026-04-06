@@ -1,0 +1,235 @@
+fileFormatVersion: 2
+guid: 18d53ca4a9f532742a72f44cd1131fde
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4241808085617168276
+    second: vacoule_labels_0
+  - first:
+      213: 1673527193964811921
+    second: vacoule_labels_1
+  - first:
+      213: -3831170431556989407
+    second: vacoule_labels_2
+  - first:
+      213: 3245341182407887605
+    second: vacoule_labels_3
+  - first:
+      213: 1502753625064050427
+    second: vacoule_labels_4
+  - first:
+      213: 2866089216416378928
+    second: vacoule_labels_5
+  - first:
+      213: 8094351398307154955
+    second: vacoule_labels_6
+  - first:
+      213: -2884791139554811732
+    second: vacoule_labels_7
+  - first:
+      213: -8840454126383060085
+    second: vacoule_labels_8
+  - first:
+      213: -2713657599681836637
+    second: vacoule_labels_9
+  - first:
+      213: -4943941167258786790
+    second: vacoule_labels_10
+  - first:
+      213: -6429894479634632468
+    second: vacoule_labels_11
+  - first:
+      213: -3852536188945283356
+    second: vacoule_labels_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vacoule_labels_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 40
+        width: 77
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f4794dafdedda30800000000000000
+      internalID: 4241808085617168276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vacoule_labels_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 37
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 2}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1969a3ebd10993710800000000000000
+      internalID: 1673527193964811921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vacoule_labels_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 38
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030731705f466c720800000000000000
+      internalID: 2866089216416378928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 248933721c3e3994fad9fb1523fb4cb0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vacoule_labels_0: 4241808085617168276
+      vacoule_labels_1: 1673527193964811921
+      vacoule_labels_10: -4943941167258786790
+      vacoule_labels_11: -6429894479634632468
+      vacoule_labels_12: -3852536188945283356
+      vacoule_labels_2: -3831170431556989407
+      vacoule_labels_3: 3245341182407887605
+      vacoule_labels_4: 1502753625064050427
+      vacoule_labels_5: 2866089216416378928
+      vacoule_labels_6: 8094351398307154955
+      vacoule_labels_7: -2884791139554811732
+      vacoule_labels_8: -8840454126383060085
+      vacoule_labels_9: -2713657599681836637
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,11 +5,17 @@ using UnityEngine.UI;
 
 public class GameManager1 : MonoBehaviour
 {
-    [Header("Drag and Drop Buttons and Draggables")]
+    [Header("Buttons")]
     public Button draggingNextButton;
     public Button mitochondriaNextButton;
     public Button ribosomeNextButton;
+    public Button magnifierRibosomeNextButton;
+    public Button vacouleNextButton;
+    public Button vacouleNoteBookNextButton;
 
+    [Header("Drag and Drop Draggables")]
+    public DragScript magnifierDraggable;
+    public List<DragScript> vacouleDraggables;
     public List<DragScript> Draggables;
 
     [Header("Cytoplasm Notebook Section")]
@@ -27,8 +33,12 @@ public class GameManager1 : MonoBehaviour
     public TMP_Dropdown ribosomeDropdown;
     public TMP_Dropdown ribosomeDropdown1;
 
-
-
+    [Header("Vacoule Notebook Section")]
+    public TMP_Dropdown vacouleDropdown;
+    public TMP_Dropdown vacouleDropdown1;
+    public TMP_Dropdown vacouleDropdown2;
+    public TMP_Dropdown vacouleDropdown3;
+    public TMP_Dropdown vacouleDropdown4;
 
 
     [Header("Popups")]
@@ -38,6 +48,8 @@ public class GameManager1 : MonoBehaviour
     public GameObject mitochondriaFalsePopUp;
     public GameObject ribosomeTruePopUp;
     public GameObject ribosomeFalsePopUp;
+    public GameObject vacouleTruePopUp;
+    public GameObject vacouleFalsePopUp;
 
     void Start()
     {
@@ -46,11 +58,16 @@ public class GameManager1 : MonoBehaviour
         if (falsePopUp != null) falsePopUp.SetActive(false);
         if (cytoNextButton != null) cytoNextButton.interactable = false;
         if (draggingNextButton != null) draggingNextButton.interactable = false;
+        if (magnifierRibosomeNextButton != null) magnifierRibosomeNextButton.interactable = false;
+        if (vacouleNextButton != null) vacouleNextButton.interactable = false;  
+
     }
     void Update()
     {
 
         CheckAllMatched();
+        CheckMagnifierMatched();
+        CheckVacouleMatched();
     }
 
     void CheckAllMatched()
@@ -68,7 +85,29 @@ public class GameManager1 : MonoBehaviour
         }
         draggingNextButton.interactable = isEverythingDone;
     }
+    void CheckMagnifierMatched()
+    {
+        if (magnifierDraggable == null || magnifierRibosomeNextButton == null) return;
+
+        magnifierRibosomeNextButton.interactable = magnifierDraggable.matched;
+    }
+    void CheckVacouleMatched()
+    {
+        if (vacouleDraggables == null || vacouleDraggables.Count == 0) return;
+
+        bool isEverythingDoneVacoule = true;
+        foreach (DragScript item in vacouleDraggables)
+        {
+            if (!item.matched)
+            {
+                isEverythingDoneVacoule = false;
+                break;
+            }
+        }
+        vacouleNextButton.interactable = isEverythingDoneVacoule;
+    }
     public void SaveButtonOnclicked()
+
     {
         // ----------------Cytoplasm 2--------------------
 
@@ -151,7 +190,7 @@ public class GameManager1 : MonoBehaviour
             ribosomeFalsePopUp.SetActive(false);
 
 
-            if (mitochondriaDropdown != null)
+            if (ribosomeDropdown != null && ribosomeDropdown1 != null)
             {
                 ribosomeDropdown.value = 1;
                 ribosomeDropdown1.value = 2;
@@ -172,6 +211,41 @@ public class GameManager1 : MonoBehaviour
             ribosomeFalsePopUp.SetActive(true);
             ribosomeTruePopUp.SetActive(false);
             ribosomeNextButton.interactable = false;
+        }
+
+
+
+
+        // --------Vacoule--------------
+        bool secondq = (vacouleDropdown2.value == 1 || vacouleDropdown2.value == 2 || vacouleDropdown2.value == 4) &&
+                       (vacouleDropdown3.value == 1 || vacouleDropdown3.value == 2 || vacouleDropdown3 .value == 4) &&
+                       (vacouleDropdown4.value == 1 || vacouleDropdown4.value == 2 || vacouleDropdown4.value == 4);
+
+        bool firstq = vacouleDropdown.value == 2 && vacouleDropdown1.value == 2  ;
+        bool vacouleCorrect = firstq && secondq;
+
+        Debug.Log($"firstq: {firstq}, secondq: {secondq}, vacouleCorrect: {vacouleCorrect}");
+        Debug.Log($"d0:{vacouleDropdown.value} d1:{vacouleDropdown1.value} d2:{vacouleDropdown2.value} d3:{vacouleDropdown3.value} d4:{vacouleDropdown4.value}");
+        vacouleTruePopUp.SetActive(vacouleCorrect);
+        vacouleFalsePopUp.SetActive(!vacouleCorrect);
+        vacouleNoteBookNextButton.interactable = vacouleCorrect;
+
+
+        if (vacouleCorrect)
+        {
+            vacouleDropdown.interactable = false;
+            vacouleDropdown1.interactable = false;
+            vacouleDropdown2.interactable = false;
+            vacouleDropdown3.interactable = false;
+            vacouleDropdown4.interactable = false;
+
+            vacouleDropdown.RefreshShownValue();
+            vacouleDropdown1.RefreshShownValue();
+            vacouleDropdown2.RefreshShownValue();
+            vacouleDropdown3.RefreshShownValue();
+            vacouleDropdown4.RefreshShownValue();
+
+
         }
     } 
 }

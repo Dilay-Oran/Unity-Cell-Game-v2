@@ -7,6 +7,7 @@ public class DropScript : MonoBehaviour, IDropHandler
 {
     public string objectname = "";
 
+
    public void OnDrop(PointerEventData eventData) // bunun içindeki yazýlar ve dropscriptteki matched satýrlarý olmadan aslýnda drop çalýþýyor ama objeyi etkilemesi gerek
     {
         DragScript dragged = eventData.pointerDrag.GetComponent<DragScript>();//sürüklenen objenin drag scriptine ulaþmamý saðlar

@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     public GameObject membranetruePopUp;
     public GameObject membranefalsePopUp;
 
-
+   
     public int trueIndex1 = 1;
     public int trueIndex2 = 2;
 
@@ -54,6 +54,7 @@ public class GameManager : MonoBehaviour
         if (cell_membrane_next_button != null) cell_membrane_next_button.interactable = false;
         if (NeoNefesNotebookNextButton != null) NeoNefesNotebookNextButton.interactable = false;
         if (cell_membrane_next_button_3 != null) cell_membrane_next_button.interactable |= false;
+        
 
         if (truePopUp != null) truePopUp.SetActive(false);
         if (falsePopUp != null) falsePopUp.SetActive(false);
