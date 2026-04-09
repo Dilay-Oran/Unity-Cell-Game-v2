@@ -233,8 +233,7 @@ public class GameManager1 : MonoBehaviour
         bool firstq = vacouleDropdown.value == 2 && vacouleDropdown1.value == 2  ;
         bool vacouleCorrect = firstq && secondq;
 
-        Debug.Log($"firstq: {firstq}, secondq: {secondq}, vacouleCorrect: {vacouleCorrect}");
-        Debug.Log($"d0:{vacouleDropdown.value} d1:{vacouleDropdown1.value} d2:{vacouleDropdown2.value} d3:{vacouleDropdown3.value} d4:{vacouleDropdown4.value}");
+        
         vacouleTruePopUp.SetActive(vacouleCorrect);
         vacouleFalsePopUp.SetActive(!vacouleCorrect);
         vacouleNoteBookNextButton.interactable = vacouleCorrect;

@@ -12,6 +12,10 @@ public class AnalyzerDrop : MonoBehaviour ,IDropHandler
     public GameObject oil_label;
     public GameObject organel_label;
     public GameObject nucleus_label;
+    public GameObject tear_label;
+    public GameObject sweather_label;
+    public GameObject salvia_label;
+    public GameObject cellmembrane_label;
 
     public void OnDrop(PointerEventData eventData) // bunun içindeki yazýlar ve dropscriptteki matched satýrlarý olmadan aslýnda drop çalýþýyor ama objeyi etkilemesi gerek
     {
@@ -42,16 +46,16 @@ public class AnalyzerDrop : MonoBehaviour ,IDropHandler
 
 
         if (check == "mineral" && mineral_label != null) mineral_label.SetActive(true);
-
         if (check == "protein" && protein_label != null) protein_label.SetActive(true);
-
         if ((check == "oil" || check == "yað") && oil_label != null) oil_label.SetActive(true);
-
         if (check == "organel" && organel_label != null) organel_label.SetActive(true);
-
         if ((check == "nucleus" || check == "çekirdek") && nucleus_label != null) nucleus_label.SetActive(true);
-
         if ((check == "protein" ) && protein_label != null) protein_label.SetActive(true);
+
+        if (check == "tear" && tear_label != null) tear_label.SetActive(true);
+        if (check == "sweat"  && sweather_label != null) sweather_label.SetActive(true);
+        if (check == "saliva" && salvia_label != null) salvia_label.SetActive(true);
+        if (check == "cellmembrene" && cellmembrane_label != null) cellmembrane_label.SetActive(true);
     }
 
 }
