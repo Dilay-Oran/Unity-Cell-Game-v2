@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 36dad02ab391d9c4c839e26658bf954a
+guid: d9e95f9eeeed19a4c88b85b6c915d268
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2046256004299705373
-    second: golgi_bg1_0
+      213: 1151353610902539643
+    second: ER_bg_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: golgi_bg1_0
+      name: ER_bg_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 857
-        height: 377
+        width: 693
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3e3b430710d3a93e0800000000000000
-      internalID: -2046256004299705373
+      spriteID: b7d85bc420e6aff00800000000000000
+      internalID: 1151353610902539643
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      golgi_bg1_0: -2046256004299705373
+      ER_bg_0: 1151353610902539643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
