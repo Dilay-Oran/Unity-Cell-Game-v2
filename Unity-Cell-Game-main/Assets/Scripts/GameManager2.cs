@@ -11,18 +11,23 @@ public class GameManager2 : MonoBehaviour
     public TMP_Dropdown golgiDropdown;
     public TMP_Dropdown golgiDropdown1;
     public TMP_Dropdown erDropdown;
+    public TMP_Dropdown sentrosomeDropdown;
+    public TMP_Dropdown sentrosomeDropdown1;
 
     [Header("Buttons")]
     public Button golgiNextButton;
     public Button saveButton;
     public Button erNextButton;
     public Button erNextButton1;
+    public Button sentrosomeNextButton;
 
     [Header("Popups")]
     public GameObject golgiTruePopUp;
     public GameObject golgiFalsePopUp;
     public GameObject erTruePopUp;
     public GameObject erFalsePopUp;
+    public GameObject sentrosomeTruePopUp;
+    public GameObject sentrosomeFalsePopUp;
 
     [Header("Drag and Drop Draggables")]
      public List<DragScript> erDraggables;
@@ -90,10 +95,32 @@ public class GameManager2 : MonoBehaviour
         }
     }
 
+    void CheckSentrosomeNotebook()
+    {
+        if (sentrosomeDropdown.value == 1 && sentrosomeDropdown1.value == 2)
+        {
+
+            sentrosomeDropdown.interactable = false;
+            sentrosomeDropdown1.interactable = false;
+
+                
+            if (sentrosomeTruePopUp != null) sentrosomeTruePopUp.SetActive(true);
+            if (sentrosomeFalsePopUp != null) sentrosomeFalsePopUp.SetActive(false);
+            if (sentrosomeNextButton != null) sentrosomeNextButton.interactable = true;
+
+        }
+        else
+        {
+            if (sentrosomeFalsePopUp != null) sentrosomeFalsePopUp.SetActive(true);
+            if (sentrosomeTruePopUp != null) sentrosomeTruePopUp.SetActive(false);
+        }
+    }
+
     public void SaveButtonOnclicked() 
     {
         CheckErNotebook();
         CheckGolgiNotebook();
+        CheckSentrosomeNotebook();
 
     }
 

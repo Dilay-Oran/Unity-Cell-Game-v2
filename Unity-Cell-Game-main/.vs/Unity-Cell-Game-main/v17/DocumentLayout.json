@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\analyzerdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\scenemanagerscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -42,8 +42,7 @@
               "RelativeToolTip": "Assets\\Scripts\\SceneManagerScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T10:04:09.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T10:04:09.97Z"
             },
             {
               "$type": "Document",
@@ -55,8 +54,7 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager1.cs",
               "ViewState": "AgIAAIsAAAAAAAAAAAAwwIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T12:55:47.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T12:55:47.84Z"
             },
             {
               "$type": "Document",
@@ -68,8 +66,7 @@
               "RelativeToolTip": "Assets\\Scripts\\AnalyzerDrop.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAkwDwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T12:24:27.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-09T12:24:27.213Z"
             },
             {
               "$type": "Document",
@@ -91,7 +88,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager2.cs",
               "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager2.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager2.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAmwF4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAiwGkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-07T19:47:30.31Z",
               "EditorCaption": ""
