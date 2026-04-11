@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\mitochondriaanimatorscrpit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mitochondriaanimatorscrpit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\gamemanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\analyzerdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "MitochondriaAnimatorScrpit.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\MitochondriaAnimatorScrpit.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MitochondriaAnimatorScrpit.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\MitochondriaAnimatorScrpit.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MitochondriaAnimatorScrpit.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-11T16:17:31.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "SceneManagerScript.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\SceneManagerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SceneManagerScript.cs",
@@ -52,26 +69,26 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager1.cs",
               "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager1.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager1.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAqwEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAqwAIBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T12:55:47.84Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AnalyzerDrop.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\AnalyzerDrop.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnalyzerDrop.cs",
               "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\AnalyzerDrop.cs",
               "RelativeToolTip": "Assets\\Scripts\\AnalyzerDrop.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAkwDwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-09T12:24:27.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AnalyzerDrag.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\AnalyzerDrag.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\AnalyzerDrag.cs",
@@ -83,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GameManager2.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager2.cs",
