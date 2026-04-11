@@ -20,6 +20,9 @@ public class GameManager2 : MonoBehaviour
     public Button erNextButton;
     public Button erNextButton1;
     public Button sentrosomeNextButton;
+    public Button rfaNextButton;
+    public Button rfaNextButton1;
+    public Button rfaNextButton2;
 
     [Header("Popups")]
     public GameObject golgiTruePopUp;
@@ -114,6 +117,11 @@ public class GameManager2 : MonoBehaviour
             if (sentrosomeFalsePopUp != null) sentrosomeFalsePopUp.SetActive(true);
             if (sentrosomeTruePopUp != null) sentrosomeTruePopUp.SetActive(false);
         }
+    }
+    public void RfaEnableButton(Button targetButton)
+    {
+        if (targetButton != null) { targetButton.interactable = true; }
+
     }
 
     public void SaveButtonOnclicked() 
