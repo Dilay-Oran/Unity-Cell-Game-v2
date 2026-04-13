@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -22,7 +21,6 @@ public class MitochondriaAnimatorScrpit : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (animationStarted) return;
@@ -51,11 +49,9 @@ public class MitochondriaAnimatorScrpit : MonoBehaviour
 
     System.Collections.IEnumerator EnableButtonAfterAnimation()
     {
-        // Animator'ın transition'ı tamamlamasını bekle
         yield return new WaitUntil(() =>
             mitochondriaAnimator.GetCurrentAnimatorStateInfo(0).IsName("Mitochondria Animation"));
 
-        // Şimdi süreyi oku
         float length = mitochondriaAnimator.GetCurrentAnimatorStateInfo(0).length;
 
         yield return new WaitForSeconds(length);

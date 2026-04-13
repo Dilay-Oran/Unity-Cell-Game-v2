@@ -13,6 +13,8 @@ public class GameManager2 : MonoBehaviour
     public TMP_Dropdown erDropdown;
     public TMP_Dropdown sentrosomeDropdown;
     public TMP_Dropdown sentrosomeDropdown1;
+    public TMP_Dropdown lisosomeDropdown;
+    public TMP_Dropdown lisosomeDropdown1;
 
     [Header("Buttons")]
     public Button golgiNextButton;
@@ -23,6 +25,7 @@ public class GameManager2 : MonoBehaviour
     public Button rfaNextButton;
     public Button rfaNextButton1;
     public Button rfaNextButton2;
+    public Button lisosomeNextButton;
 
     [Header("Popups")]
     public GameObject golgiTruePopUp;
@@ -31,6 +34,8 @@ public class GameManager2 : MonoBehaviour
     public GameObject erFalsePopUp;
     public GameObject sentrosomeTruePopUp;
     public GameObject sentrosomeFalsePopUp;
+    public GameObject lisosomeTruePopUp;
+    public GameObject lisosomeFalsePopUp;
 
     [Header("Drag and Drop Draggables")]
      public List<DragScript> erDraggables;
@@ -118,6 +123,25 @@ public class GameManager2 : MonoBehaviour
             if (sentrosomeTruePopUp != null) sentrosomeTruePopUp.SetActive(false);
         }
     }
+
+    void CheckLisosomeNotebook()
+    {
+        if (lisosomeDropdown.value == 1 && lisosomeDropdown1.value == 2)
+        {
+
+            lisosomeDropdown.interactable = false;
+            lisosomeDropdown1.interactable = false;
+
+            if (lisosomeTruePopUp != null) lisosomeTruePopUp.SetActive(true);
+            if (lisosomeFalsePopUp != null) lisosomeFalsePopUp.SetActive(false);
+            if (lisosomeNextButton != null) lisosomeNextButton.interactable = true;
+        }
+        else
+        {
+            if (lisosomeFalsePopUp != null) lisosomeFalsePopUp.SetActive(true);
+            if (lisosomeTruePopUp != null) lisosomeTruePopUp.SetActive(false);
+        }
+    }
     public void RfaEnableButton(Button targetButton)
     {
         if (targetButton != null) { targetButton.interactable = true; }
@@ -129,7 +153,7 @@ public class GameManager2 : MonoBehaviour
         CheckErNotebook();
         CheckGolgiNotebook();
         CheckSentrosomeNotebook();
-
+        CheckLisosomeNotebook();
     }
 
   

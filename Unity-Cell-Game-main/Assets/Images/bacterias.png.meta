@@ -1,0 +1,1037 @@
+fileFormatVersion: 2
+guid: a6c0f3f6801efa64781e9d9035e392a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8984349553918473201
+    second: bacterias_0
+  - first:
+      213: -2188534033793559371
+    second: bacterias_1
+  - first:
+      213: -8911440567258288859
+    second: bacterias_2
+  - first:
+      213: 2322347155688583640
+    second: bacterias_3
+  - first:
+      213: -8436024392279153696
+    second: bacterias_4
+  - first:
+      213: -7369087200293636099
+    second: bacterias_5
+  - first:
+      213: 9187675563324849066
+    second: bacterias_6
+  - first:
+      213: 6451679154478259628
+    second: bacterias_7
+  - first:
+      213: -4106402585904361455
+    second: bacterias_8
+  - first:
+      213: -953121594643655131
+    second: bacterias_9
+  - first:
+      213: -5863951145775694378
+    second: bacterias_10
+  - first:
+      213: -3503053197433372366
+    second: bacterias_11
+  - first:
+      213: -6728470960105180333
+    second: bacterias_12
+  - first:
+      213: -913372203807130344
+    second: bacterias_13
+  - first:
+      213: 1038867825837353549
+    second: bacterias_14
+  - first:
+      213: -1432130424413260226
+    second: bacterias_15
+  - first:
+      213: -5420932061582237376
+    second: bacterias_16
+  - first:
+      213: 5814678856448580366
+    second: bacterias_17
+  - first:
+      213: -7025852906777719118
+    second: bacterias_18
+  - first:
+      213: -5538324511833890545
+    second: bacterias_19
+  - first:
+      213: 4450632378600557078
+    second: bacterias_20
+  - first:
+      213: -5716363363496283093
+    second: bacterias_21
+  - first:
+      213: -7685507540555200708
+    second: bacterias_22
+  - first:
+      213: 7115814035595475841
+    second: bacterias_23
+  - first:
+      213: -5494782697467525869
+    second: bacterias_24
+  - first:
+      213: 8800765458987151232
+    second: bacterias_25
+  - first:
+      213: 6224005981610856286
+    second: bacterias_26
+  - first:
+      213: 7819696896821993787
+    second: bacterias_27
+  - first:
+      213: -8683037497024397848
+    second: bacterias_28
+  - first:
+      213: 5532230159192284865
+    second: bacterias_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bacterias_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 242
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3ff337152deac70800000000000000
+      internalID: 8984349553918473201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 260
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc54d10cd2e67541ab9a003eb914c5a
+      internalID: -2188534033793559371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 216
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5035c190e0a13bd4a98600ebfb7242a0
+      internalID: -8911440567258288859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 205
+        width: 81
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e141eb3e914ca24b82a05fa20384179
+      internalID: 2322347155688583640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 186
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4384a1d5901fb489301eee9353b26d
+      internalID: -8436024392279153696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_5
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 182
+        width: 47
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6040ca607140e4e82ffa5b3bf2c40c
+      internalID: -7369087200293636099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_6
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 193
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4027dc2c1f08444c9677c7dec460068
+      internalID: 9187675563324849066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_7
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 163
+        width: 67
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5653324d8b9fe584f9e01de76ef3c96a
+      internalID: 6451679154478259628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 197
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0393ad6bd589cf544a0c05c147d00982
+      internalID: -4106402585904361455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_9
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 159
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7f86c3d5b186246b13399735ef4d97
+      internalID: -953121594643655131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 173
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ceaba561226f44ea238d591e593ce4
+      internalID: -5863951145775694378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_11
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 178
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dc743674d935348b7fd8467a83d92e
+      internalID: -3503053197433372366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 151
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b35d7447a593048a7426e7cd9f5f7e
+      internalID: -6728470960105180333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_13
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 142
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d4ea36dee18144bac8d801818f7b88
+      internalID: -913372203807130344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_14
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 114
+        width: 82
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950817338fcfcfb4180ebbb09741fd6f
+      internalID: 1038867825837353549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 146
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b05d349d6da0d5947a9635e6b99ed53a
+      internalID: -1432130424413260226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_16
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 118
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b62ef0bff071b488c9d56f3ef9cb9b
+      internalID: -5420932061582237376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_17
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 130
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d9b74925b295344ab9f8823261fb6d
+      internalID: 5814678856448580366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 84
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b564925d55d1343bf04c29c92b23c9
+      internalID: -7025852906777719118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_19
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 103
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7d8c2f15afae549b5899206d8c0c6f
+      internalID: -5538324511833890545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_20
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 85
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e26dc38c65a5294c905d13e1931b2c2
+      internalID: 4450632378600557078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 93
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b99cce4f8f452c48ad1308785c55c2a
+      internalID: -5716363363496283093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_22
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 89
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac1bf02e2364ee4f96fb6e494be1d2f
+      internalID: -7685507540555200708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 42
+        width: 68
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a754d4eecec312b4c902ca5462bd2a21
+      internalID: 7115814035595475841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_24
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 62
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb3ebf05fbee0c4daceb5af46a403f2
+      internalID: -5494782697467525869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 84
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf78518b1ef7a18459ecd76873afa842
+      internalID: 8800765458987151232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_26
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 28
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0954d2698d4e9e94ebf6bd53613d75bf
+      internalID: 6224005981610856286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_27
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 19
+        width: 52
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8b3fcbbf9624640851f59104fd71ac
+      internalID: 7819696896821993787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_28
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 19
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12e92bcdd6075c40a3d727e022ae29a
+      internalID: -8683037497024397848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 20
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbbb91151498647448bdbc279782d327
+      internalID: 5532230159192284865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 196
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0346125bf585ee54fbafb14caeaa016e
+      internalID: 1404346438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 161
+        width: 95
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e2b1ee9a7bf7f4797456998620c907
+      internalID: -1816364550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 119
+        width: 102
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65edf0f5da92f584bbb222bbaeb3a9c7
+      internalID: 1796478870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_33
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 74
+        width: 98
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d172f112e67bda34381175eae18f4e1b
+      internalID: 1125829526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_34
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 104
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 171f74ea342a992479625391155fc902
+      internalID: -1875477012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bacterias_35
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 97
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223cd4292fa37ee4cbad9c969619c603
+      internalID: 1909898349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a2ada16b70988e4478cbf1baf5283bee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      bacterias_0: 8984349553918473201
+      bacterias_1: -2188534033793559371
+      bacterias_10: -5863951145775694378
+      bacterias_11: -3503053197433372366
+      bacterias_12: -6728470960105180333
+      bacterias_13: -913372203807130344
+      bacterias_14: 1038867825837353549
+      bacterias_15: -1432130424413260226
+      bacterias_16: -5420932061582237376
+      bacterias_17: 5814678856448580366
+      bacterias_18: -7025852906777719118
+      bacterias_19: -5538324511833890545
+      bacterias_2: -8911440567258288859
+      bacterias_20: 4450632378600557078
+      bacterias_21: -5716363363496283093
+      bacterias_22: -7685507540555200708
+      bacterias_23: 7115814035595475841
+      bacterias_24: -5494782697467525869
+      bacterias_25: 8800765458987151232
+      bacterias_26: 6224005981610856286
+      bacterias_27: 7819696896821993787
+      bacterias_28: -8683037497024397848
+      bacterias_29: 5532230159192284865
+      bacterias_3: 2322347155688583640
+      bacterias_30: 1404346438
+      bacterias_31: -1816364550
+      bacterias_32: 1796478870
+      bacterias_33: 1125829526
+      bacterias_34: -1875477012
+      bacterias_35: 1909898349
+      bacterias_4: -8436024392279153696
+      bacterias_5: -7369087200293636099
+      bacterias_6: 9187675563324849066
+      bacterias_7: 6451679154478259628
+      bacterias_8: -4106402585904361455
+      bacterias_9: -953121594643655131
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
