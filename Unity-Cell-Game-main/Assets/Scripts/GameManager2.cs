@@ -126,7 +126,7 @@ public class GameManager2 : MonoBehaviour
 
     void CheckLisosomeNotebook()
     {
-        if (lisosomeDropdown.value == 1 && lisosomeDropdown1.value == 2)
+        if (lisosomeDropdown.value == 1 && lisosomeDropdown1.value == 1)
         {
 
             lisosomeDropdown.interactable = false;
