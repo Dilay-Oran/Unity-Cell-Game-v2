@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class DragScript : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
 {
@@ -10,6 +11,7 @@ public class DragScript : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
     public bool matched = false;
     public string targetobject = "";
     public string result = "does not matched"; // true or false
+    public Image nameImage; // for lisosome
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,6 +28,9 @@ public class DragScript : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
     {
         matched = false; // her sürüklemeye baþladýðýmda matched = false yapar
         rt.anchoredPosition += eventData.delta / canvas.scaleFactor; // scaling problemini çözen satýr
+
+        if (nameImage != null)
+            nameImage.gameObject.SetActive(true);
     }
 
     public void OnBeginDrag(PointerEventData eventData) // sürüklemeye baþladýðýnda raycasti iptal etme
@@ -38,6 +43,9 @@ public class DragScript : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDr
     {
         cg.blocksRaycasts = true;
         BacktoStartPos();
+
+        if (nameImage != null)
+            nameImage.gameObject.SetActive(false);
     }
 
     public void BacktoStartPos()  // matchleþmeyen yere býrakýðýmda start positiona dönmesi 
