@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\RibosomeAnimatorScript.cs" />
     <Compile Include="Assets\Scripts\AnalyzerDrag.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\NucleusAnimatorScript.cs" />
     <Compile Include="Assets\Scripts\HoverHideScript.cs" />
     <Compile Include="Assets\Scripts\SceneManagerScript.cs" />
   </ItemGroup>
