@@ -1,11 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NucleusAnimatorScript : MonoBehaviour
+public class NucleusAnimatiorScript : MonoBehaviour
 {
     [Header("Animation")]
     public Animator nucleusAnimator;
-    public string animationTriggerName = "PlayAnimNucleus";
+    public string triggerName = "PlayAnimNucleus";
 
     [Header("Animasyon Bitince Kapanacaklar")]
     public List<GameObject> objectsToHide;
@@ -13,21 +14,15 @@ public class NucleusAnimatorScript : MonoBehaviour
     [Header("Animasyon Bitince Açýlacaklar")]
     public List<GameObject> objectsToShow;
 
-    public void PlayAnimation()
+    public void OnNextButtonClicked()
     {
-        nucleusAnimator.SetTrigger(animationTriggerName);
-        StartCoroutine(OnAnimationEnd());
+        nucleusAnimator.SetTrigger(triggerName);
+        StartCoroutine(WaitAndChange());
     }
 
-    System.Collections.IEnumerator OnAnimationEnd()
+    System.Collections.IEnumerator WaitAndChange()
     {
-        yield return new WaitUntil(() =>
-            nucleusAnimator.GetCurrentAnimatorStateInfo(0).IsName("Nucleus Animation"));
-
-        yield return null;
-
-        float length = nucleusAnimator.GetCurrentAnimatorStateInfo(0).length;
-        yield return new WaitForSeconds(length);
+        yield return new WaitForSeconds(4.267f);
 
         foreach (GameObject obj in objectsToHide)
             if (obj != null) obj.SetActive(false);
@@ -35,4 +30,6 @@ public class NucleusAnimatorScript : MonoBehaviour
         foreach (GameObject obj in objectsToShow)
             if (obj != null) obj.SetActive(true);
     }
+
+
 }
