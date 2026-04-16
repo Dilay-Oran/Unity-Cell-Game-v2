@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\dragscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dragscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\dropscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dropscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\buttonanimatontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\buttonanimatontrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\dragscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dragscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonAnimatonTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\ButtonAnimatonTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ButtonAnimatonTrigger.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\ButtonAnimatonTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ButtonAnimatonTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:39:10.992Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -38,11 +55,12 @@
               "RelativeToolTip": "Assets\\Scripts\\DropScript.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-16T13:22:00.046Z"
+              "WhenOpened": "2026-04-16T13:22:00.046Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "NucleusAnimatorScript.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\NucleusAnimatorScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\NucleusAnimatorScript.cs",
@@ -50,11 +68,12 @@
               "RelativeToolTip": "Assets\\Scripts\\NucleusAnimatorScript.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T23:47:01.111Z"
+              "WhenOpened": "2026-04-13T23:47:01.111Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameManager2.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager2.cs",
@@ -66,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DragScript.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\DragScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DragScript.cs",

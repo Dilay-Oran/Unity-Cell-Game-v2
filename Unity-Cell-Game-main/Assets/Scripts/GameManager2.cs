@@ -15,6 +15,12 @@ public class GameManager2 : MonoBehaviour
     public TMP_Dropdown sentrosomeDropdown1;
     public TMP_Dropdown lisosomeDropdown;
     public TMP_Dropdown lisosomeDropdown1;
+    public TMP_Dropdown nucleusDropdown;
+    public TMP_Dropdown nucleusDropdown1;
+    public TMP_Dropdown nucleusDropdown2;
+    public TMP_Dropdown nucleusDropdown3;
+    public TMP_Dropdown nucleusDropdown4;
+    public TMP_Dropdown nucleusDropdown5;
 
     [Header("Buttons")]
     public Button golgiNextButton;
@@ -26,6 +32,7 @@ public class GameManager2 : MonoBehaviour
     public Button rfaNextButton1;
     public Button rfaNextButton2;
     public Button lisosomeNextButton;
+    public Button nucleusNextButton;
 
     [Header("Popups")]
     public GameObject golgiTruePopUp;
@@ -36,6 +43,8 @@ public class GameManager2 : MonoBehaviour
     public GameObject sentrosomeFalsePopUp;
     public GameObject lisosomeTruePopUp;
     public GameObject lisosomeFalsePopUp;
+    public GameObject nucleusTruePopUp;
+    public GameObject nucleusFalsePopUp;
 
     [Header("Drag and Drop Draggables")]
      public List<DragScript> erDraggables;
@@ -142,6 +151,28 @@ public class GameManager2 : MonoBehaviour
             if (lisosomeTruePopUp != null) lisosomeTruePopUp.SetActive(false);
         }
     }
+
+    void CheckNucleusNotebook()
+    {
+        if (nucleusDropdown.value == 2 && nucleusDropdown1.value == 1 && nucleusDropdown2.value == 2 && nucleusDropdown3.value == 2 && nucleusDropdown4.value == 1 && nucleusDropdown5.value == 1)
+        {
+
+            nucleusDropdown.interactable = false;
+            nucleusDropdown1.interactable = false;
+            nucleusDropdown2.interactable = false;
+            nucleusDropdown3.interactable = false;
+            nucleusDropdown4.interactable = false;
+            nucleusDropdown5.interactable = false;
+            if (nucleusTruePopUp != null) nucleusTruePopUp.SetActive(true);
+            if (nucleusFalsePopUp != null) nucleusFalsePopUp.SetActive(false);
+            if (nucleusNextButton != null) nucleusNextButton.interactable = true;
+        }
+        else
+        {
+            if (nucleusFalsePopUp != null) nucleusFalsePopUp.SetActive(true);
+            if (nucleusTruePopUp != null) nucleusTruePopUp.SetActive(false);
+        }
+    }
     public void RfaEnableButton(Button targetButton)
     {
         if (targetButton != null) { targetButton.interactable = true; }
@@ -154,6 +185,7 @@ public class GameManager2 : MonoBehaviour
         CheckGolgiNotebook();
         CheckSentrosomeNotebook();
         CheckLisosomeNotebook();
+        CheckNucleusNotebook();
     }
 
   

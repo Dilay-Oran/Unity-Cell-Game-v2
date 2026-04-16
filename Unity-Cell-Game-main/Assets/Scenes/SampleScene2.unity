@@ -311,10 +311,10 @@ MonoBehaviour:
     - m_Text: 
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Mikrop
+    - m_Text: sindirim
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Protein
+    - m_Text: denetim
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -31573,6 +31573,12 @@ MonoBehaviour:
   sentrosomeDropdown1: {fileID: 982958046}
   lisosomeDropdown: {fileID: 979477368}
   lisosomeDropdown1: {fileID: 1898495609}
+  nucleusDropdown: {fileID: 1115347990}
+  nucleusDropdown1: {fileID: 1492773831}
+  nucleusDropdown2: {fileID: 7443792}
+  nucleusDropdown3: {fileID: 824674788}
+  nucleusDropdown4: {fileID: 1595003166}
+  nucleusDropdown5: {fileID: 2144888986}
   golgiNextButton: {fileID: 1913224291}
   saveButton: {fileID: 720631243}
   erNextButton: {fileID: 1447397708}
@@ -31582,6 +31588,7 @@ MonoBehaviour:
   rfaNextButton1: {fileID: 2139048447}
   rfaNextButton2: {fileID: 77468564}
   lisosomeNextButton: {fileID: 10326176}
+  nucleusNextButton: {fileID: 779435371}
   golgiTruePopUp: {fileID: 1391957119}
   golgiFalsePopUp: {fileID: 1660058046}
   erTruePopUp: {fileID: 630923875}
@@ -31590,6 +31597,8 @@ MonoBehaviour:
   sentrosomeFalsePopUp: {fileID: 1351329723}
   lisosomeTruePopUp: {fileID: 152288458}
   lisosomeFalsePopUp: {fileID: 2143614064}
+  nucleusTruePopUp: {fileID: 152288458}
+  nucleusFalsePopUp: {fileID: 2143614064}
   erDraggables:
   - {fileID: 780083526}
   - {fileID: 324686148}
@@ -33197,10 +33206,10 @@ MonoBehaviour:
     - m_Text: 
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Mikrop
+    - m_Text: DNA
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Protein
+    - m_Text: Kromozom
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -37548,7 +37557,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.5}
+  m_AnchoredPosition: {x: -7.500004, y: -0.5}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &937218114
@@ -45244,10 +45253,10 @@ MonoBehaviour:
     - m_Text: 
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: organel
+    - m_Text: kollar
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: mineral
+    - m_Text: "a\xE7\u0131kl\u0131klar"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -49267,7 +49276,7 @@ GameObject:
   - component: {fileID: 1201565531}
   - component: {fileID: 1201565530}
   m_Layer: 5
-  m_Name: "\xE7ekirdek_text  "
+  m_Name: 'nucleus_text  '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -60154,6 +60163,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1201565528}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2085826345}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1702194872}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1447607222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62192,10 +62237,10 @@ MonoBehaviour:
     - m_Text: 
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Mikrop
+    - m_Text: "y\xF6netim"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Protein
+    - m_Text: "\xFCretim"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -66520,10 +66565,10 @@ MonoBehaviour:
     - m_Text: 
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Mikrop
+    - m_Text: gen
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Protein
+    - m_Text: "\xE7ekirdek"
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
@@ -70875,7 +70920,7 @@ GameObject:
   - component: {fileID: 1702194875}
   - component: {fileID: 1702194874}
   m_Layer: 5
-  m_Name: "\xE7ekirdek_button"
+  m_Name: nucleus_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -84444,7 +84489,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -7.5, y: -0.5}
+  m_AnchoredPosition: {x: -7.500004, y: -0.5}
   m_SizeDelta: {x: -35, y: -13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1998906978
@@ -87839,7 +87884,7 @@ GameObject:
   - component: {fileID: 2085826348}
   - component: {fileID: 2085826347}
   m_Layer: 5
-  m_Name: "\xE7ekirdek_button"
+  m_Name: nucleus_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90422,10 +90467,10 @@ MonoBehaviour:
     - m_Text: 
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Mikrop
+    - m_Text: gen
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
-    - m_Text: Protein
+    - m_Text: kromatin iplik
       m_Image: {fileID: 0}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_OnValueChanged:
