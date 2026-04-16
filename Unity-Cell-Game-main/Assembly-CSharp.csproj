@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\GameManager2.cs" />
     <Compile Include="Assets\Scripts\DropScript.cs" />
     <Compile Include="Assets\Scripts\GameManager1.cs" />
+    <Compile Include="Assets\Scripts\ButtonAnimatonTrigger.cs" />
     <Compile Include="Assets\Scripts\MitochondriaAnimatorScrpit.cs" />
     <Compile Include="Assets\Scripts\RibosomeAnimatorScript.cs" />
     <Compile Include="Assets\Scripts\AnalyzerDrag.cs" />
