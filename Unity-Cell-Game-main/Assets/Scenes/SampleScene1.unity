@@ -3278,7 +3278,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14.6}
+  m_AnchoredPosition: {x: 0, y: -37.697}
   m_SizeDelta: {x: 375.51, y: 316.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &106627964
@@ -3301,9 +3301,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A)H\xFCcre\n1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t-
-    Lizozom\n\t- Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t-
-    Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre Duvar\u0131\nB)H\xFCcreden Organizmaya\n\n"
+  m_text: "1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t- Lizozom\n\t-
+    Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t- Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre
+    Duvar\u0131\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3331,9 +3331,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 19.7
-  m_fontSizeBase: 36
+  m_fontSizeBase: 19.7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -9931,7 +9931,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &324383548
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10594,6 +10594,7 @@ MonoBehaviour:
   matched: 0
   targetobject: nutritient
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &347756492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11395,7 +11396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &366602508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13326,6 +13327,7 @@ MonoBehaviour:
   matched: 0
   targetobject: water
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &416034936
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15719,6 +15721,7 @@ MonoBehaviour:
   matched: 0
   targetobject: nutritient
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &524275805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16371,7 +16374,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14.6}
+  m_AnchoredPosition: {x: 0, y: -36.48999}
   m_SizeDelta: {x: 375.51, y: 316.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &569248544
@@ -16394,9 +16397,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A)H\xFCcre\n1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t- Ribozom\n\t-
-    Lizozom\n\t- Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t-
-    Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre Duvar\u0131\nB)H\xFCcreden Organizmaya\n\n"
+  m_text: "1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t- Lizozom\n\t-
+    Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t- Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre
+    Duvar\u0131\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -16424,9 +16427,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 19.7
-  m_fontSizeBase: 36
+  m_fontSizeBase: 19.7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -18522,6 +18525,7 @@ MonoBehaviour:
   matched: 0
   targetobject: 
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &656355306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19317,6 +19321,7 @@ MonoBehaviour:
   matched: 0
   targetobject: Image
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!225 &690907001
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -21197,7 +21202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &780499254
 RectTransform:
   m_ObjectHideFlags: 0
@@ -26929,7 +26934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &961772667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32015,6 +32020,7 @@ MonoBehaviour:
   matched: 0
   targetobject: entrance
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &1162504517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32099,7 +32105,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14.6}
+  m_AnchoredPosition: {x: 0, y: -36.489994}
   m_SizeDelta: {x: 375.51, y: 316.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1166783909
@@ -32122,9 +32128,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A)H\xFCcre\n1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t- Mitokondri\n\t- Ribozom\n\t-
-    Lizozom\n\t- Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t-
-    Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre Duvar\u0131\nB)H\xFCcreden Organizmaya\n\n"
+  m_text: "1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t- Lizozom\n\t-
+    Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t- Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre
+    Duvar\u0131"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -32152,9 +32158,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 19.7
-  m_fontSizeBase: 36
+  m_fontSizeBase: 19.7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -36730,6 +36736,7 @@ MonoBehaviour:
   matched: 0
   targetobject: trash
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &1340332153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43245,6 +43252,7 @@ MonoBehaviour:
   matched: 0
   targetobject: water
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &1577990333
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53864,7 +53872,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1935814948
 RectTransform:
   m_ObjectHideFlags: 0
@@ -56520,7 +56528,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14.6}
+  m_AnchoredPosition: {x: 0, y: -36.48999}
   m_SizeDelta: {x: 375.51, y: 316.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2007908640
@@ -56543,9 +56551,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A)H\xFCcre\n1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t-
-    Lizozom\n\t- Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t-
-    Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre Duvar\u0131\nB)H\xFCcreden Organizmaya\n\n"
+  m_text: "1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t- Lizozom\n\t-
+    Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t- Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre
+    Duvar\u0131\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -56573,9 +56581,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 19.7
-  m_fontSizeBase: 36
+  m_fontSizeBase: 19.7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -57293,7 +57301,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -14.6}
+  m_AnchoredPosition: {x: 0, y: -36.48999}
   m_SizeDelta: {x: 375.51, y: 316.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2029474172
@@ -57316,9 +57324,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "A)H\xFCcre\n1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t-
-    Lizozom\n\t- Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t-
-    Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre Duvar\u0131\nB)H\xFCcreden Organizmaya\n\n"
+  m_text: "1.H\xFCcre Zar\u0131\n2.Sitoplazma\n\t  Mitokondri\n\t  Ribozom\n\t- Lizozom\n\t-
+    Sentrozom\n\t- Koful\n\t- Golgi\n\t- Endoplazmik Retikulum\n\t- Kloroplast\n3.\xC7ekirdek\n4.H\xFCcre
+    Duvar\u0131\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -57346,9 +57354,9 @@ MonoBehaviour:
     serializedVersion: 2
     rgba: 4294967295
   m_fontSize: 19.7
-  m_fontSizeBase: 36
+  m_fontSizeBase: 19.7
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -57452,6 +57460,7 @@ MonoBehaviour:
   matched: 0
   targetobject: trash
   result: does not matched
+  nameImage: {fileID: 0}
 --- !u!114 &2031129104
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58699,7 +58708,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2080724345
 RectTransform:
   m_ObjectHideFlags: 0
@@ -58771,8 +58780,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 19.7
+  m_fontSizeBase: 19.7
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
