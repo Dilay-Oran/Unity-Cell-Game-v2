@@ -1,6 +1,8 @@
-using UnityEngine;
-using UnityEngine.UI;       
 using TMPro;       
+using UnityEngine;
+using UnityEngine.UI;
+using System.Collections.Generic;
+
 
 public class GameManager3 : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class GameManager3 : MonoBehaviour
     public Button cellMembraneOilNextButton;
     public Button cellMembraneCarbohydrateNextButton;
     public Button cellMembraneProteinNextButton;
+    public Button rfaNextButton;
 
     [Header("Popups")]
     public GameObject cellWallTruePopUp;
@@ -22,9 +25,13 @@ public class GameManager3 : MonoBehaviour
     public TMP_InputField cellMembraneInputField1;
     public TMP_InputField cellMembraneInputField2;
 
+    [Header("Drag and Drop Draggables")]
+    public List<DragScript> rfaDraggables;
+
     public void Update()
     {
         CellMembraneController();
+        CheckRfaMatched();
     }
     void CheckCellWall()
     {
@@ -63,6 +70,22 @@ public class GameManager3 : MonoBehaviour
         }
    
 
+    }
+
+    void CheckRfaMatched()
+    {
+        if (rfaDraggables == null || rfaDraggables.Count == 0) return;
+
+        bool isEverythingDoneRfa = true;
+        foreach (DragScript item in rfaDraggables)
+        {
+            if (!item.matched)
+            {
+                isEverythingDoneRfa = false;
+                break;
+            }
+        }
+        rfaNextButton.interactable = isEverythingDoneRfa;
     }
     public void SaveButtonOnclicked()
     {
