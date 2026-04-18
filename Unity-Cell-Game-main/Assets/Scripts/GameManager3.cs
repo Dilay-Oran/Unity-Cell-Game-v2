@@ -21,6 +21,7 @@ public class GameManager3 : MonoBehaviour
     public Button chloroplastNextButton;
     public Button lisosomeNextButton;
     public Button centrosomeNextButton;
+    public Button nucleusNextButton;    
 
     [Header("Popups")]
     public GameObject cellWallTruePopUp;
@@ -37,12 +38,14 @@ public class GameManager3 : MonoBehaviour
 
     [Header("Drag and Drop Draggables")]
     public List<DragScript> rfaDraggables;
+    public List<DragScript> nucleusDraggables;
 
     public void Update()
     {
         CellMembraneController();
         CheckRfaMatched();
         OrganellesController();
+        CheckNucleusMatched();
     }
     void CheckCellWall()
     {
@@ -122,7 +125,6 @@ public class GameManager3 : MonoBehaviour
 
     }
 
-
     void OrganellesController()
     {
         if (lisosomeInputField.text.ToLower().Trim() == "lizozom")
@@ -134,6 +136,22 @@ public class GameManager3 : MonoBehaviour
             centrosomeNextButton.interactable = true;
         }
         
+    }
+
+    void CheckNucleusMatched()
+    {
+        if (nucleusDraggables == null || nucleusDraggables.Count == 0) return;
+
+        bool isEverythingDoneNucleus = true;
+        foreach (DragScript item in nucleusDraggables)
+        {
+            if (!item.matched)
+            {
+                isEverythingDoneNucleus = false;
+                break;
+            }
+        }
+        nucleusNextButton.interactable = isEverythingDoneNucleus;
     }
     public void SaveButtonOnclicked()
     {
