@@ -1,13 +1,31 @@
 fileFormatVersion: 2
-guid: e2ac600cdcff66e4a98c048126619503
+guid: eef0bff4a5d009b45b267a03d1fff89a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1796070040244766890
-    second: kloroplast_dirt (2)_0
+      213: -6917689462023670749
+    second: chloroplast_anim_0
   - first:
-      213: 3718554032344066805
-    second: kloroplast_dirt (2)_1
+      213: 736189858191179237
+    second: chloroplast_anim_1
+  - first:
+      213: 7621669999397376696
+    second: chloroplast_anim_2
+  - first:
+      213: -3324826926251180292
+    second: chloroplast_anim_3
+  - first:
+      213: 4181561612458872655
+    second: chloroplast_anim_4
+  - first:
+      213: 3122269041259480718
+    second: chloroplast_anim_5
+  - first:
+      213: -4542237333717588682
+    second: chloroplast_anim_6
+  - first:
+      213: 2391209097038443514
+    second: chloroplast_anim_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,35 +121,57 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: kloroplast_dirt (2)_0
+      name: chloroplast_anim_0
       rect:
         serializedVersion: 2
-        x: 33
-        y: 101
-        width: 232
-        height: 218
+        x: 12
+        y: 38
+        width: 95
+        height: 68
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6573d7b70d31317e0800000000000000
-      internalID: -1796070040244766890
+      spriteID: 324bd95f51e6fff90800000000000000
+      internalID: -6917689462023670749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: kloroplast_dirt (2)_1
+      name: chloroplast_anim_1
       rect:
         serializedVersion: 2
-        x: 297
-        y: 172
-        width: 198
-        height: 182
+        x: 110
+        y: 61
+        width: 74
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5edfab886c8773a00800000000000000
+      internalID: 736189858191179237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chloroplast_anim_2
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 7
+        width: 71
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5fae6ffc035fa9330800000000000000
-      internalID: 3718554032344066805
+      spriteID: 8b2155dab7c95c960800000000000000
+      internalID: 7621669999397376696
       vertices: []
       indices: 
       edges: []
@@ -150,7 +190,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c6ad4c7281d029e4298fffccf3eb77a4
     internalID: 0
     vertices: []
     indices: 
@@ -160,8 +200,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      kloroplast_dirt (2)_0: -1796070040244766890
-      kloroplast_dirt (2)_1: 3718554032344066805
+      chloroplast_anim_0: -6917689462023670749
+      chloroplast_anim_1: 736189858191179237
+      chloroplast_anim_2: 7621669999397376696
+      chloroplast_anim_3: -3324826926251180292
+      chloroplast_anim_4: 4181561612458872655
+      chloroplast_anim_5: 3122269041259480718
+      chloroplast_anim_6: -4542237333717588682
+      chloroplast_anim_7: 2391209097038443514
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

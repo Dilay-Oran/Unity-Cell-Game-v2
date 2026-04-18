@@ -8,6 +8,9 @@ public class GameManager3 : MonoBehaviour
 {
     [Header("Dropdowns")]
     public TMP_Dropdown cellWallDropdown;
+    public TMP_Dropdown chloroplastDropdown;
+    public TMP_Dropdown chloroplastDropdown1;
+    public TMP_Dropdown chloroplastDropdown2;
 
     [Header("Buttons")]
     public Button cellWallNextButton;
@@ -15,15 +18,22 @@ public class GameManager3 : MonoBehaviour
     public Button cellMembraneCarbohydrateNextButton;
     public Button cellMembraneProteinNextButton;
     public Button rfaNextButton;
+    public Button chloroplastNextButton;
+    public Button lisosomeNextButton;
+    public Button centrosomeNextButton;
 
     [Header("Popups")]
     public GameObject cellWallTruePopUp;
     public GameObject cellWallFalsePopUp;
+    public GameObject chloroplastTruePopUp;
+    public GameObject chloroplastFalsePopUp;
 
     [Header("Input Fields")]
     public TMP_InputField cellMembraneInputField;
     public TMP_InputField cellMembraneInputField1;
     public TMP_InputField cellMembraneInputField2;
+    public TMP_InputField lisosomeInputField;
+    public TMP_InputField centrosomeInputField;
 
     [Header("Drag and Drop Draggables")]
     public List<DragScript> rfaDraggables;
@@ -32,6 +42,7 @@ public class GameManager3 : MonoBehaviour
     {
         CellMembraneController();
         CheckRfaMatched();
+        OrganellesController();
     }
     void CheckCellWall()
     {
@@ -87,10 +98,48 @@ public class GameManager3 : MonoBehaviour
         }
         rfaNextButton.interactable = isEverythingDoneRfa;
     }
+
+    void CheckChloroplast()
+    {
+
+
+        if (chloroplastDropdown.value == 3 || chloroplastDropdown1.value == 3 || chloroplastDropdown2.value == 2)
+        {
+
+            chloroplastDropdown.interactable = false;
+            chloroplastDropdown1.interactable = false;
+            chloroplastDropdown2.interactable = false;
+
+            if (chloroplastTruePopUp != null) chloroplastTruePopUp.SetActive(true);
+            if (chloroplastFalsePopUp != null) chloroplastFalsePopUp.SetActive(false);
+            if (chloroplastNextButton != null) chloroplastNextButton.interactable = true;
+        }
+        else
+        {
+            if (chloroplastFalsePopUp != null) chloroplastFalsePopUp.SetActive(true);
+            if (chloroplastTruePopUp != null) chloroplastTruePopUp.SetActive(false);
+        }
+
+    }
+
+
+    void OrganellesController()
+    {
+        if (lisosomeInputField.text.ToLower().Trim() == "lizozom")
+        {
+            lisosomeNextButton.interactable = true;
+        }
+        if (centrosomeInputField.text.ToLower().Trim() == "sentrozom")
+        {
+            centrosomeNextButton.interactable = true;
+        }
+        
+    }
     public void SaveButtonOnclicked()
     {
         CheckCellWall();
-     
+        CheckChloroplast();
+       
     }
 
 

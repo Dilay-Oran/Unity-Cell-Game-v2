@@ -14,13 +14,12 @@ public class HoverHideScript : MonoBehaviour, IPointerEnterHandler
 
         if (eventData.pointerDrag != null)
         {
-
-            if (eventData.pointerDrag.name == "lisosome")
+            if (eventData.pointerDrag.name == "lisosome" || eventData.pointerDrag.name == "brush")
             {
                 foreach (GameObject obj in objectsToHide)
                 {
                     if (obj != null)
-                        obj.SetActive(false);
+                    obj.SetActive(false);
                 }
                 CheckAllHidden();
             }
