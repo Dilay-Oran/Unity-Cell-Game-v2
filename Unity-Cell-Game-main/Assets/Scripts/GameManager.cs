@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     // variables
+
     [Header("Screen Management")]
     public GameObject Name_Screen;
     public GameObject Introduction_Screen3;

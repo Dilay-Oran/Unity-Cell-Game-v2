@@ -11,7 +11,11 @@ public class GameManager3 : MonoBehaviour
     public TMP_Dropdown chloroplastDropdown;
     public TMP_Dropdown chloroplastDropdown1;
     public TMP_Dropdown chloroplastDropdown2;
-
+    public TMP_Dropdown assessmentDropdownQ1;
+    public TMP_Dropdown assessmentDropdownQ2;
+    public TMP_Dropdown assessmentDropdownQ3;
+    public TMP_Dropdown assessmentDropdownQ4;
+    public TMP_Dropdown assessmentDropdownQ5;
     [Header("Buttons")]
     public Button cellWallNextButton;
     public Button cellMembraneOilNextButton;
@@ -21,13 +25,20 @@ public class GameManager3 : MonoBehaviour
     public Button chloroplastNextButton;
     public Button lisosomeNextButton;
     public Button centrosomeNextButton;
-    public Button nucleusNextButton;    
+    public Button nucleusNextButton;
+    public Button controllButtonQ1;
+    public Button controllButtonQ2;
+    public Button controllButtonQ3;
+    public Button controllButtonQ4;
+    public Button controllButtonQ5;
 
     [Header("Popups")]
     public GameObject cellWallTruePopUp;
     public GameObject cellWallFalsePopUp;
     public GameObject chloroplastTruePopUp;
     public GameObject chloroplastFalsePopUp;
+    public GameObject assessmentTruePopUp;
+    public GameObject assessmentFalsePopUp;
 
     [Header("Input Fields")]
     public TMP_InputField cellMembraneInputField;
@@ -39,6 +50,14 @@ public class GameManager3 : MonoBehaviour
     [Header("Drag and Drop Draggables")]
     public List<DragScript> rfaDraggables;
     public List<DragScript> nucleusDraggables;
+
+    [Header("Assessment Backgrounds")]
+    public GameObject assessmentBackgroundQ1;
+    public GameObject assessmentBackgroundQ2;
+    public GameObject assessmentBackgroundQ3;
+    public GameObject assessmentBackgroundQ4;
+    public GameObject assessmentBackgroundQ5;
+
 
     public void Update()
     {
@@ -152,6 +171,27 @@ public class GameManager3 : MonoBehaviour
             }
         }
         nucleusNextButton.interactable = isEverythingDoneNucleus;
+    }
+
+    void AssessmentController()
+    {
+        if (assessmentDropdownQ1.value == 1)
+        {
+            assessmentDropdownQ1.interactable = false;
+            assessmentFalsePopUp.SetActive(false);
+            assessmentTruePopUp.SetActive(true);
+
+        }
+        if (centrosomeInputField.text.ToLower().Trim() == "sentrozom")
+        {
+            centrosomeNextButton.interactable = true;
+        }
+
+    }
+
+    void CheckButtonOnCliked()
+    {
+        AssessmentController();
     }
     public void SaveButtonOnclicked()
     {

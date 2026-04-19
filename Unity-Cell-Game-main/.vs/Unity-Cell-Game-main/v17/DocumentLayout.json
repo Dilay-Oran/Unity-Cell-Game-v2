@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\gamemanager3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\gamemanager3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|c:\\users\\d\u0130lay\\downloads\\unity-cell-game-main\\unity-cell-game-main\\assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E40EFEB-5228-0721-47A5-369162C548EC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\nucleusanimatorscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAYwAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T14:06:05.098Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -32,33 +49,33 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\NucleusAnimatorScript.cs",
               "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\NucleusAnimatorScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\NucleusAnimatorScript.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAwBgAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-18T21:44:09.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GameManager2.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager2.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager2.cs",
               "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager2.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager2.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAAwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T22:34:54.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameManager3.cs",
               "DocumentMoniker": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager3.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager3.cs",
               "ToolTip": "C:\\Users\\D\u0130LAY\\Downloads\\Unity-Cell-Game-main\\Unity-Cell-Game-main\\Assets\\Scripts\\GameManager3.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager3.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwC8AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T20:50:45.172Z",
               "EditorCaption": ""
