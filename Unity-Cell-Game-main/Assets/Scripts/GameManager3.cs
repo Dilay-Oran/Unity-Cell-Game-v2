@@ -39,7 +39,12 @@ public class GameManager3 : MonoBehaviour
     public GameObject chloroplastTruePopUp;
     public GameObject chloroplastFalsePopUp;
     public GameObject assessmentTruePopUp;
-    public GameObject assessmentFalsePopUp;
+    public GameObject assessmentFalsePopUpA;
+    public GameObject assessmentFalsePopUpB;
+    public GameObject assessmentFalsePopUpC;
+    public GameObject assessmentFalsePopUpD;
+    public GameObject assessmentFalsePopUpTrue;
+    public GameObject assessmentFalsePopUpFalse;
 
     [Header("Input Fields")]
     public TMP_InputField cellMembraneInputField;
@@ -184,26 +189,75 @@ public class GameManager3 : MonoBehaviour
         nucleusNextButton.interactable = isEverythingDoneNucleus;
     }
 
-    void AssessmentController()
+    public void AssessmentControllerQ1()
     {
-        if (assessmentDropdownQ1.value == 1)
+        if (assessmentDropdownQ1.value == 2)
         {
             assessmentDropdownQ1.interactable = false;
-            assessmentFalsePopUp.SetActive(false);
             assessmentTruePopUp.SetActive(true);
-
+            assessmentBackgroundQ1.SetActive(false);
+            assessmentBackgroundQ2.SetActive(true);
         }
-        if (centrosomeInputField.text.ToLower().Trim() == "sentrozom")
+        else
         {
-            centrosomeNextButton.interactable = true;
+            assessmentFalsePopUpC.SetActive(true);
+            assessmentTruePopUp.SetActive(false);
+            assessmentBackgroundQ1.SetActive(false);
+            assessmentBackgroundQ2.SetActive(true);
         }
-
     }
 
-    void CheckButtonOnCliked()
+    public void AssessmentControllerQ2()
     {
-        AssessmentController();
+        if (assessmentDropdownQ2.value == 1)
+        {
+            assessmentTruePopUp.SetActive(true);
+            assessmentBackgroundQ2.SetActive(false);
+            assessmentBackgroundQ3.SetActive(true);
+        }
+        else
+        {
+            assessmentFalsePopUpB.SetActive(true);
+            assessmentTruePopUp.SetActive(false);
+            assessmentBackgroundQ2.SetActive(false);
+            assessmentBackgroundQ3.SetActive(true);
+        }
     }
+    public void AssessmentControllerQ3()
+    {
+        if (assessmentDropdownQ3.value == 2)
+        {
+            assessmentTruePopUp.SetActive(true);
+            assessmentBackgroundQ3.SetActive(false);
+            assessmentBackgroundQ4.SetActive(true);
+        }
+        else
+        {
+            assessmentFalsePopUpC.SetActive(true);
+            assessmentTruePopUp.SetActive(false);
+            assessmentBackgroundQ3.SetActive(false);
+            assessmentBackgroundQ4.SetActive(true);
+        }
+    }
+
+    public void AssessmentControllerQ4()
+    {
+        if (assessmentDropdownQ4.value == 1)
+        {
+            assessmentTruePopUp.SetActive(true);
+            assessmentBackgroundQ3.SetActive(false);
+            assessmentBackgroundQ4.SetActive(true);
+        }
+        else
+        {
+            assessmentFalsePopUpFalse.SetActive(true);
+            assessmentTruePopUp.SetActive(false);
+            assessmentBackgroundQ3.SetActive(false);
+            assessmentBackgroundQ4.SetActive(true);
+        }
+    }
+
+
     public void SaveButtonOnclicked()
     {
         CheckCellWall();
