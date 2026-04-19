@@ -43,11 +43,21 @@ public class GameManager : MonoBehaviour
     public GameObject membranetruePopUp;
     public GameObject membranefalsePopUp;
 
-   
+    [Header("Speech Including Name")]
+    public TMP_Text speech;
+
+
+
     public int trueIndex1 = 1;
     public int trueIndex2 = 2;
 
-
+    public void AddName() 
+    {
+        if (PlayerData.playerName != null && PlayerData.playerName.Length > 0)
+        {
+            speech.text = speech.text.Replace("{isim}", PlayerData.playerName);
+        }
+    }
 
     void Start()
     {
@@ -66,8 +76,9 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-
+        AddName();
         CheckAllMatched();
+
     }
 
     void CheckAllMatched()

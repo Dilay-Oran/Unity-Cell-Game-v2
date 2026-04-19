@@ -12278,8 +12278,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tekrar ho\u015Fgeldin. Bitkiyi ve ku\u015Fu inceledi\u011Fimde baz\u0131
-    h\xFCcrelerinde sorunlar oldu\u011Funu g\xF6rd\xFCm."
+  m_text: "Tekrar ho\u015Fgeldin {isim}. Bitkiyi ve ku\u015Fu inceledi\u011Fimde
+    baz\u0131 h\xFCcrelerinde sorunlar oldu\u011Funu g\xF6rd\xFCm."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -17594,7 +17594,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1010598751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23257,6 +23257,7 @@ MonoBehaviour:
   cell_membrane_next_button_3: {fileID: 149717327}
   membranetruePopUp: {fileID: 1672396638}
   membranefalsePopUp: {fileID: 930769168}
+  speech: {fileID: 650208558}
   trueIndex1: 2
   trueIndex2: 2
 --- !u!4 &1437252025
@@ -27642,7 +27643,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1757032531
 MonoBehaviour:
   m_ObjectHideFlags: 0

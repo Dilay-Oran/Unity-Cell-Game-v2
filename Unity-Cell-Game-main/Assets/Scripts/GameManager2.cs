@@ -49,11 +49,21 @@ public class GameManager2 : MonoBehaviour
     [Header("Drag and Drop Draggables")]
      public List<DragScript> erDraggables;
 
+    [Header("Speech Text")]
+    public TMP_Text speech;
+
     void Update()
     {
+        AddName();
         CheckErMatched();
     }
-
+    public void AddName()
+    {
+        if (PlayerData.playerName != null && PlayerData.playerName.Length > 0)
+        {
+            speech.text = speech.text.Replace("{isim}", PlayerData.playerName);
+        }
+    }
     void CheckErMatched()
     {
         if (erDraggables == null || erDraggables.Count == 0) return;

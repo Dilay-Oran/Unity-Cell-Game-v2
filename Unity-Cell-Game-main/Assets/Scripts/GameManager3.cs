@@ -16,6 +16,7 @@ public class GameManager3 : MonoBehaviour
     public TMP_Dropdown assessmentDropdownQ3;
     public TMP_Dropdown assessmentDropdownQ4;
     public TMP_Dropdown assessmentDropdownQ5;
+
     [Header("Buttons")]
     public Button cellWallNextButton;
     public Button cellMembraneOilNextButton;
@@ -58,13 +59,23 @@ public class GameManager3 : MonoBehaviour
     public GameObject assessmentBackgroundQ4;
     public GameObject assessmentBackgroundQ5;
 
+    [Header("Speech Including Name")]
+    public TMP_Text speech;
 
     public void Update()
     {
+        AddName();
         CellMembraneController();
         CheckRfaMatched();
         OrganellesController();
         CheckNucleusMatched();
+    }
+    public void AddName()
+    {
+        if (PlayerData.playerName != null && PlayerData.playerName.Length > 0)
+        {
+            speech.text = speech.text.Replace("{isim}", PlayerData.playerName);
+        }
     }
     void CheckCellWall()
     {
